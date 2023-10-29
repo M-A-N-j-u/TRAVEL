@@ -69,7 +69,7 @@ nav{
     /* display: flex; */
     justify-content: space-between;
     align-items: center;
-    position: fixed;
+    /* position: fixed; */
     z-index: 2;
     /* background-color: aliceblue; */
   
@@ -109,7 +109,8 @@ li{
     
    position: absolute;
    top: 0;
-   /* color: black; */
+   margin-left: 600px;
+   
 
 }
 
@@ -207,3 +208,11 @@ li:hover{
     background-color:white
 
 }
+
+
+
+footer{
+    display: flex;
+   justify-content: center;
+   margin-top: 80%;
+  }
